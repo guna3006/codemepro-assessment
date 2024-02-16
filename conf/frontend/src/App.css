@@ -1,0 +1,109 @@
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.app {
+  text-align: center;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  color: white;
+}
+
+main {
+  padding: 20px;
+}
+
+.hero {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+}
+
+.feature {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0 10px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  position: bottom;
+  bottom: 0;
+  width: 100%;
+}
+
+.pdf-icon {
+  width: 70px;
+  height: 30px;
+}
+.xls-icon {
+  width: 70px;
+  height: 30px;
+}
+
+.pdf-icon2 {
+  width: 70px;
+  height: 30px;
+}
+
+.linkedin-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.cart-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.courier {
+  text-align: right;
+}
+
+.round-button {
+  display: inline-block;
+  padding: 7px 8px;
+  border-radius: 50%;
+  background-color: #4CAF50;
+  color:gold;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.close {
+  position: 'absolute';
+  top: '10px';
+  right: '10px';
+  font-size: 20%;
+  cursor: 'pointer'
+}
+
+.logo {
+  width: 600px;
+  height: 80px;
+}
